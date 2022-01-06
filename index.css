@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Bangers&family=Kalam:wght@700&family=Open+Sans:ital,wght@1,300;1,400&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "ubuntu";
+  line-height: 1.4;
+  font-weight: 100;
+  background: linear-gradient(
+      rgba(74, 74, 139, 0.582),
+      rgba(74, 74, 139, 0.582)
+    ),
+    url(https://www.technopixel.org/wp-content/uploads/2021/09/wallpaper-engine-coming-to-android-0-rlQMDEF9.jpeg)
+      top/cover no-repeat fixed;
+  background-size: contain cover;
+  max-width: 500px;
+  margin: auto;
+}
+header {
+  text-align: center;
+  max-width: 500px;
+  /* margin-left: 50px; */
+}
+#title {
+  color: rgb(205, 209, 255);
+  text-shadow: 1px 1px 1px rgb(12, 22, 59);
+}
+#description {
+  color: white;
+  text-shadow: 1px 1px 1px rgb(12, 22, 59);
+  font-weight: 500;
+}
+#survey-form {
+  background: rgba(56, 15, 102, 0.733);
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+#submit-button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.78rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: rgb(117, 126, 211);
+  margin: 10px 0;
+}
+
+#submit-button:hover {
+  background: rgb(92, 100, 170);
+}
+
+.input-headings {
+  color: rgb(253, 179, 179);
+  margin: 0 auto 1.25rem auto;
+  font-weight: 500;
+  padding: 0.25rem;
+}
+
+.form-inputs {
+  display: block;
+  width: 95%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  margin: 0 0 0 0;
+  border: none;
+  border-radius: 5px;
+  color: rgb(46, 46, 141);
+  font-weight: 500;
+}
+
+textarea {
+  width: 98%;
+  margin: 0 auto;
+  padding: 0.25rem 0 0 0.75rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#textarea-top {
+  display: inline-block;
+  padding: 1rem 0 0.5rem 0;
+}
+
+.headings {
+  display: inline-block;
+  font-family: "roboto";
+  font-weight: 500;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  color: rgb(207, 206, 255);
+}
+
+textarea:focus,
+.form-inputs:focus {
+  outline: none;
+  outline: 2px solid rgba(68, 0, 255, 0.377);
+  outline-offset: -2px;
+}
+
+#dropdown {
+  width: 100%;
+  height: 2.5rem;
+}
